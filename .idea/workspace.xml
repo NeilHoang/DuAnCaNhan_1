@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16e02cbd-c44e-4aae-a4ac-92a7d2c32c9d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aFlmil5gSgJGoOnp3zsnAoqbJh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/View" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16e02cbd-c44e-4aae-a4ac-92a7d2c32c9d" name="Default Changelist" comment="" />
+      <created>1586339383524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586339383524</updated>
+      <workItem from="1586339385463" duration="42632000" />
+      <workItem from="1586530658574" duration="12000" />
+      <workItem from="1586530722207" duration="5034000" />
+      <workItem from="1586580341434" duration="816000" />
+      <workItem from="1586581206859" duration="81000" />
+      <workItem from="1586581388472" duration="21450000" />
+      <workItem from="1586696539663" duration="9000" />
+      <workItem from="1586755121631" duration="3480000" />
+      <workItem from="1586848374046" duration="27000" />
+      <workItem from="1586848448260" duration="580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1060" y="357" key="NewPhpClassDialog" timestamp="1586353074276">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1060" y="357" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586353074276" />
+    <state x="1090" y="459" key="NewPhpFileDialog" timestamp="1586608502548">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1090" y="459" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586608502548" />
+    <state x="683" y="164" key="SettingsEditor" timestamp="1586339530964">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="683" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1586339530964" />
+    <state x="470" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1586848375447">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="473" y="359" key="com.intellij.ide.util.TipDialog/0.0.1638.1050@0.0.1638.1050" timestamp="1586530748544" />
+    <state x="470" y="359" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586848375447" />
+    <state x="602" y="154" key="refactoring.ChangeSignatureDialog" timestamp="1586491409505">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="602" y="154" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586491409505" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Controller/CategoriesController.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
