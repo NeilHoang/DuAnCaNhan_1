@@ -24,9 +24,21 @@ class ProductController
     
     public function getListProduct()
     {
-        $products = $this->productDB->getAll();
-        $user = $this->user->getUserById($_SESSION['id']);
+        $limit = 3;
+        $current_page = isset($_GET['pageNumber']) ? $_GET['pageNumber'] : 1;
+        $start = ($current_page - 1) * $limit;
+        $total_records = $this->productDB->totalRecordsPage();
+        $total_page = ceil($total_records[0]['total'] / $limit);
+        if (isset($_POST['sortBy'])) {
+            $sortBy = $_POST['sortBy'];
+            $products = $this->productDB->sortBy($sortBy);
+        } else {
+            $products = $this->productDB->getAll($start, $limit);
+            $user = $this->user->getUserById($_SESSION['id']);
+    
+        }
         include "../View/listProduct.php";
+        include "../View/paginate.php";
     }
     
     
@@ -36,7 +48,7 @@ class ProductController
             $categories = $this->cate->getAll();
             include "../View/createProduct.php";
         } elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            $products = new \Model\product\Product($_POST['categories'], $_POST['name'], $_POST['price']);
+            $products = new \Model\product\Product($_POST['categories'], $_POST['name'], $_POST['price'],$_POST['time_create'],null);
             $this->productDB->addProduct($products);
             header("Location:../View/homepage.php?page=listProduct");
         }
@@ -57,7 +69,7 @@ class ProductController
             include_once "../View/editProduct.php";
         } elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $product_id = $_GET['id'];
-            $product = new \Model\product\Product($_POST['id_categories'], $_POST['name'], $_POST['price']);
+            $product = new \Model\product\Product($_POST['id_categories'], $_POST['name'], $_POST['price'],$_POST['time_create'],$_POST['time_update']);
             $this->productDB->updateProduct($product_id, $product);
             header("Location:../View/homepage.php?page=listProduct");
         }

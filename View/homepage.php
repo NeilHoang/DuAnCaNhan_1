@@ -5,6 +5,9 @@ session_start();
 include "../Controller/UserController.php";
 include "../Controller/ProductController.php";
 include "../Controller/CategoriesController.php";
+include "../Controller/imageController.php";
+include "../Model/image/ImageDB.php";
+include "../Model/image/Image.php";
 include "../Model/user/User.php";
 include "../Model/user/UserDB.php";
 include "../Model/product/ProductDB.php";
@@ -15,6 +18,7 @@ include "../Model/category/CategoryDB.php";
 $userController = new  UserController();
 $productController = new ProductController();
 $categoriesController = new CategoriesController();
+$imagesController = new imageController();
 
 $name = $_SESSION['name'];
 ?>
@@ -97,7 +101,8 @@ $name = $_SESSION['name'];
                 $productController->edit();
                 break;
             default:
-                $userController->getProfile();
+//                $userController->getProfile();
+                $imagesController->createImages();
             
         }
         ?>

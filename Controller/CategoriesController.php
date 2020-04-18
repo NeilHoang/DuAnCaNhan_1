@@ -1,8 +1,6 @@
 <?php
 ob_start();
 session_start();
-//include "../Model/category/Category.php";
-//include "../Model/category/CategoryDB.php";
 include "../Model/DBConnection.php";
 
 use Model\DB\DBConnection;
@@ -31,7 +29,7 @@ class CategoriesController
         if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             include "../View/createCate.php";
         } elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            $category = new \Model\category\Category($_POST['name']);
+            $category = new \Model\category\Category($_POST['name'],$_POST['time_create'],null);
             $this->categoriesDB->addCategory($category);
             header("Location:../View/homepage.php?page=listCategories");
         }
@@ -51,7 +49,7 @@ class CategoriesController
             include_once "../View/editCate.php";
         } elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $categories_id = $_GET['id'];
-            $categories = new \Model\category\Category($_POST['name']);
+            $categories = new \Model\category\Category($_POST['name'],$_POST['time_create'],$_POST['time_update']);
             $this->categoriesDB->updateCategory($categories_id,$categories);
             header("Location:../View/homepage.php?page=listCategories");
         }

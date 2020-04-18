@@ -85,7 +85,7 @@ class UserController
     
     public function editUser()
     {
-        $name = $_GET['name'];
+        $name = $_SESSION['name'];
         $userByName = $this->userDB->getName($name);
         if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             include_once "../View/editUser.php";
@@ -98,6 +98,7 @@ class UserController
                 $avatar = $userByName->getAvatar();
             }
             $users = new \Model\user\User($_POST['name'], $_POST['email'], null, $avatar);
+            var_dump($_POST);
             $this->userDB->updateUser($users);
             header("Location:homepage.php?name=$name");
             

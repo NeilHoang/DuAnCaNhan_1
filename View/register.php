@@ -33,7 +33,6 @@ $userController = new UserController();
                 <a href="../View/register.php">Sign Up</a>
             </li>
         </ul>
-        <span style="color: red; margin-left: 15%;"><?php $userController->register(); ?></span>
         <label for="login-input-user" class="login__label">
             Name
         </label>
@@ -49,7 +48,8 @@ $userController = new UserController();
         <label class="login__label">
             Avatar
         </label>
-        <input id="login-input-user" class="login__input" type="file" name="avatar" required/>
+        <input id="login-input-user" class="login__input" type="file" name="avatar[]" multiple required/>
+        <span style="color: red; margin-left: 15%;"><?php $userController->register(); ?></span>
         <button type="submit" class="login__submit">Create</button>
     </form>
 </div>

@@ -8,8 +8,8 @@
                 <div class="form-group">
                     <label>Loại sản phẩm</label>
                     <select class="form-group" name="categories">
-                        <?php foreach ($categories as $category) :?>
-                            <option value="<?php echo $category->getId()?>"><?php echo $category->getName()?></option>
+                        <?php foreach ($categories as $category) : ?>
+                            <option value="<?php echo $category->getId() ?>"><?php echo $category->getName() ?></option>
                         <?php endforeach; ?>
                     </select>
                 </div>
@@ -19,7 +19,13 @@
                 </div>
                 <div class="form-group">
                     <label>Giá</label>
-                    <input type="text" class="form-control" name="price" placeholder="Nhập tên" required>
+                    <input type="text" class="form-control" name="price" placeholder="Nhập giá" required>
+                </div>
+                <div class="form-group">
+                    <label>Ngày tạo</label>
+                    <input type="text" class="form-control" name="time_create" placeholder="Nhập tên"
+                           value="<?php echo date_default_timezone_set('Asia/saigon');
+                           echo date('H:i:s d-m-Y', time()) ?>" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Thêm mới</button>
                 <button class="btn btn-secondary" onclick="window.history.go(-1); return false;">Hủy</button>
@@ -27,5 +33,3 @@
         </div>
     </div>
 </div>
-
-<?php //var_dump($category->getId()); ?>

@@ -1,11 +1,16 @@
 <form method="post">
     <div class="form-group">
         <label for="exampleInputEmail1">Name</label>
-        <input type="tel" class="form-control" name="name" value="<?php echo $product->getName()?>">
+        <input type="tel" class="form-control" name="name" value="<?php echo $product->getName() ?>">
     </div>
     <div class="form-group">
         <label for="exampleInputEmail1">Price</label>
-        <input type="tel" class="form-control" name="price" value="<?php echo $product->getPrice()?>">
+        <input type="tel" class="form-control" name="price" value="<?php echo $product->getPrice() ?>">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Time Update</label>
+        <input type="tel" class="form-control" name="time_update" value="<?php echo date_default_timezone_set('Asia/saigon');
+        echo date('H:i:s d-m-Y', time()) ?>">
     </div>
     <div class="form-group">
         <label for="exampleInputEmail1">Categories</label>

@@ -16,12 +16,14 @@
             </div>
 
             <div class="col-9  float-left">
-                <table class="table col-12 table-bordered ">
+                <table class="table col-12 table-bordered " style="text-align: center">
                     <thead>
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Name</th>
-                        <th scope="col"></th>
+                        <th scope="col">Time Create</th>
+                        <th scope="col">Time Update</th>
+                        <th colspan="2">Action</th>
                     </tr>
                     </thead>
                     <?php foreach ($categories as $key => $category): ?>
@@ -29,10 +31,13 @@
                         <tr>
                             <th scope="row"><?php echo ++$key ?></th>
                             <td><?php echo mb_strtoupper($category->getName()) ?></td>
+                            <td><?php echo mb_strtoupper($category->getTimeCreate()) ?></td>
+                            <td><?php echo mb_strtoupper($category->getTimeUpdate()) ?></td>
                             <td><a href="homepage.php?page=deleteCategories&id=<?php echo $category->getId() ?>"
                                    type="button" class="btn btn-outline-danger"
                                    onclick="return confirm('Bạn có chắc chắn muốn xóa')">DELETE</a>
-                                <a href="homepage.php?page=editCategories&id=<?php echo $category->getId() ?>"
+                            </td>
+                            <td><a href="homepage.php?page=editCategories&id=<?php echo $category->getId() ?>"
                                    type="button" class="ml-4 btn btn-outline-primary">EDIT</a></td>
                         </tr>
                         </tbody>

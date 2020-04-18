@@ -23,7 +23,9 @@
                         <th scope="col">Category</th>
                         <th scope="col">Name</th>
                         <th scope="col">Price</th>
-                        <th scope="col">Action</th>
+                        <th scope="col">Time Create</th>
+                        <th scope="col">Time Update</th>
+                        <th colspan="2">Action</th>
                     </tr>
                     </thead>
                     <?php foreach ($products as $key => $product): ?>
@@ -33,10 +35,12 @@
                             <td><?php echo $product->getCategories() ?></td>
                             <td><?php echo mb_strtoupper($product->getName()) ?></td>
                             <td><?php echo $product->getPrice() ?></td>
-                            <td><a href="homepage.php?page=deleteProduct&id=<?php echo $product->getId()?>" type="button" class="btn btn-outline-primary" onclick="return confirm('Bạn có chắc muốn xóa ?')">DELETE</a><a href="homepage.php?page=editProduct&id=<?php echo $product->getId()?>"
-                                                                                                      type="button"
-                                                                                                      class="btn btn-outline-danger ml-4">EDIT</a>
-                            </td>
+                            <td><?php echo $product->getTimeCreate() ?></td>
+                            <td><?php echo $product->getTimeUpdate() ?></td>
+                            <td><a href="homepage.php?page=deleteProduct&id=<?php echo $product->getId()?>" type="button" class="btn btn-outline-primary" onclick="return confirm('Bạn có chắc muốn xóa ?')">DELETE</a></td>
+                            <td><a href="homepage.php?page=editProduct&id=<?php echo $product->getId()?>"
+                                   type="button"
+                                   class="btn btn-outline-danger ml-4">EDIT</a></td>
                         </tr>
                         </tbody>
                     <?php endforeach; ?>

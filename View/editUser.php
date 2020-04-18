@@ -1,7 +1,7 @@
-<form method="post" enctype="multipart/form-data">
+<form method="POST" enctype="multipart/form-data">
     <div class="form-group">
-        <label for="exampleInputEmail1">Name</label>
-        <input type="tel" class="form-control" name="name" value="<?php echo $userByName->getName()?>">
+        <label for="exampleInputPassword1">Name</label>
+        <input type="text" class="form-control" name="name" value="<?php echo $userByName->getName()?>">
     </div>
     <div class="form-group">
         <label for="exampleInputPassword1">Email</label>
