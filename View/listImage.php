@@ -12,38 +12,28 @@
                         </div>
                     </div>
                 </div>
-                <a href="homepage.php?page=createProduct" class="btn btn-outline-info">CREATE</a>
+                <a href="?page=createImage" class="btn btn-outline-info">CREATE</a>
             </div>
 
             <div class="col-9  float-left">
-                <table class="table col-12 table-bordered ">
+                <table class="table col-12 table-bordered " style="text-align: center">
                     <thead>
-                    <tr style="text-align: center">
+                    <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Category</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Price</th>
                         <th scope="col">Image</th>
-                        <th scope="col">Time Create</th>
-                        <th scope="col">Time Update</th>
-                        <th colspan="2">Action</th>
                     </tr>
                     </thead>
-                    <?php foreach ($products as $key => $product): ?>
+                    <?php foreach ($images as $key => $image): ?>
                         <tbody style="text-align: center">
                         <tr>
                             <th scope="row"><?php echo ++$key ?></th>
-                            <td><?php echo $product->getCategories() ?></td>
-                            <td><?php echo mb_strtoupper($product->getName()) ?></td>
-                            <td><?php echo $product->getPrice() ?></td>
-                            <td><?php echo $product->getTimeCreate() ?></td>
-                            <td><?php echo $product->getTimeUpdate() ?></td>
-                            <td><a href="homepage.php?page=deleteProduct&id=<?php echo $product->getId() ?>"
+                            <td><img src="../images/image/<?php echo $image->getImages() ?>" class="card-img-top"
+                                     alt="..."
+                                     style="length 100px;width: 100px"></td>
+                            <td><a href="homepage.php?page=deleteImage&id=<?php echo $image->getImageId() ?>"
                                    type="button" class="btn btn-outline-primary"
                                    onclick="return confirm('Bạn có chắc muốn xóa ?')">DELETE</a></td>
-                            <td><a href="homepage.php?page=editProduct&id=<?php echo $product->getId() ?>"
-                                   type="button"
-                                   class="btn btn-outline-danger ml-4">EDIT</a></td>
+
                         </tr>
                         </tbody>
                     <?php endforeach; ?>

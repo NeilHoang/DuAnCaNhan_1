@@ -5,7 +5,7 @@
         </div>
         <div class="col-12">
             <form method="POST" enctype="multipart/form-data">
-                    <label>Tên loại hàng</label>
+                    <label>Thêm mới ảnh </label>
                     <input type="file" name="image[]" id="file" multiple>
                     <input type="submit" name="submit" value="Upload">
                 <button class="btn btn-secondary" onclick="window.history.go(-1); return false;">Hủy</button>

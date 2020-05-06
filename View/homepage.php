@@ -38,7 +38,7 @@ $name = $_SESSION['name'];
 <div class="container">
     <div class="col-12">
         <nav class="navbar navbar-expand-lg navbar-light bg-light mt-5">
-            <a class="navbar-brand" href="homepage.php?name=<?php echo $name?>">Home</a>
+            <a class="navbar-brand" href="homepage.php?name=<?php echo $name ?>">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,6 +52,10 @@ $name = $_SESSION['name'];
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="homepage.php?page=listProduct">Product<span
+                                    class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="homepage.php?page=getListImage">Image<span
                                     class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
@@ -100,9 +104,17 @@ $name = $_SESSION['name'];
             case 'editProduct';
                 $productController->edit();
                 break;
-            default:
-//                $userController->getProfile();
+            case 'createImage';
                 $imagesController->createImages();
+                break;
+            case 'getListImage';
+                $imagesController->getImage();
+                break;
+            case 'deleteImage';
+                $imagesController->deleteImage();
+                break;
+            default;
+                $userController->getProfile();
             
         }
         ?>

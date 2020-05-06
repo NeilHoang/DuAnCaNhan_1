@@ -32,14 +32,6 @@ class ImageDB
     }
     
     
-    public function upload()
-    {
-        $fileCount = count($_FILES['image']['name']);
-        for ($i = 0; $i < $fileCount; $i++) {
-            $fileName = $_FILES['file']['name'][$i];
-        }
-    }
-    
     public function getAll()
     {
         $query = "SELECT * FROM images ORDER BY image_id DESC";
@@ -49,4 +41,12 @@ class ImageDB
             return $this->createImage($result);
         }
     }
+    
+    public function delete($image_id)
+    {
+        $sql = "DELETE FROM images WHERE image_id = $image_id";
+        $stmt = $this->imgConnect->query($sql);
+        $stmt->execute();
+    }
+    
 }

@@ -2,192 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16e02cbd-c44e-4aae-a4ac-92a7d2c32c9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/imageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/image/Image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/image/ImageDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/image/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/listImage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/CategoriesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/category/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/category/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/category/CategoryDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/category/CategoryDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/product/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/product/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/product/ProductDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/product/ProductDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/createCate.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/createCate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/imageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/imageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/image/ImageDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/image/ImageDB.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/createProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/createProduct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/editCate.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/editCate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/editProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/editProduct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/editUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/editUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/homepage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/listCate.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/listCate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/image/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/image/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/listProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/listProduct.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/07:25:4188007967_1393808810791270_6615461645546160128_o.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/07:55:1569497534_421992901998477_3550364230530105344_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/07:56:1369497534_421992901998477_3550364230530105344_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/08:38:18hinh-anh-dep-56_044134752.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/08:38:401(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/14:38:55chup-anh-dep-tai-vung-tau-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/14:39:14chup-anh-dep-tai-vung-tau-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/14:44:58chup-anh-dep-tai-vung-tau-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/15:07:23chup-anh-dep-tai-vung-tau-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/16:20:57hinh anh thien nhien dep 2015 (1).jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/16:21:00hinh anh thien nhien dep 2015 (1).jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/16:22:50Screen Shot 2019-10-16 at 17.29.21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/16:23:11anh-dep-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/16:23:20anh-dep-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/16:26:5669497534_421992901998477_3550364230530105344_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hoang.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/profile-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/.github/workflows/blank.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/License.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/Useful_Resources.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/addons/datatables-select.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/addons/datatables-select.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/addons/datatables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/addons/datatables.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/addons/directives.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/addons/directives.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/addons/flag.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/addons/flag.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/addons/jquery.zmd.hierarchical-display.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/addons/jquery.zmd.hierarchical-display.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/addons/rating.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/addons/rating.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/mdb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/mdb.lite.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/mdb.lite.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/mdb.lite.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/mdb.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/mdb.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/modules/animations-extended.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/modules/animations-extended.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/flags.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/lightbox/default-skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/lightbox/default-skin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/lightbox/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/mdb-favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/overlays/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/overlays/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/overlays/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/overlays/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/overlays/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/overlays/06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/overlays/07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/overlays/08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/overlays/09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/sample.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/svg/arrow_left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/svg/arrow_right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/img/svg/flags.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/datatables-select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/datatables-select.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/datatables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/datatables.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/directives.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/directives.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/flag.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/flag.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/imagesloaded.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/imagesloaded.pkgd.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/jquery.zmd.hierarchical-display.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/jquery.zmd.hierarchical-display.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/masonry.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/masonry.pkgd.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/rating.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/addons/rating.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/mdb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/mdb.lite.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/mdb.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/mdb.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/modules/animations-extended.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/modules/animations-extended.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/modules/forms-free.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/modules/forms-free.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/modules/scrolling-navbar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/modules/scrolling-navbar.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/modules/treeview.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/modules/treeview.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/modules/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/modules/wow.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/_custom-styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/_custom-variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/addons/_datatables-select.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/addons/_datatables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/addons/_directives.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/addons/_flag.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/addons/_hierarchical-display.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/addons/_rating.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/core/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/core/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/core/_helpers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/core/_masks.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/core/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/core/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/core/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/core/_waves.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/core/bootstrap/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/core/bootstrap/_rfs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/core/bootstrap/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_animations-basic.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_badges.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_cards.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_carousels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_depreciated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_dropdowns.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_footers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_input-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_loader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_modals.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_msc.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_navbars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_steppers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/_treeview.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/modules/animations-extended/_module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/free/modules/animations-extended/animations-extended.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/mdb-free.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/scss/mdb-lite-free.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/free/forms-free.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/free/scrolling-navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/free/treeview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/free/wow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/addons/datatables-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/addons/datatables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/addons/imagesloaded.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/addons/jquery.zmd.hierarchical-display.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/addons/masonry.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/addons/rating.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/free/bs-custom-file-input.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/free/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/free/chartjs-datalabels.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/free/enhanced-modals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/free/jquery.easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/free/velocity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mdbootstrap/src/js/vendor/free/waves.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image/4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,9 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -213,10 +37,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -262,13 +86,32 @@
       <workItem from="1586866403957" duration="1452000" />
       <workItem from="1586926338280" duration="11425000" />
       <workItem from="1587086964503" duration="7465000" />
+      <workItem from="1587175308080" duration="84000" />
+      <workItem from="1587440394913" duration="727000" />
+      <workItem from="1587462873466" duration="9000" />
+      <workItem from="1587527714868" duration="259000" />
+      <workItem from="1587528038116" duration="227000" />
+      <workItem from="1587553514485" duration="10000" />
+      <workItem from="1587560449313" duration="4636000" />
+      <workItem from="1588235937563" duration="2841000" />
+      <workItem from="1588670870869" duration="21000" />
+      <workItem from="1588670925837" duration="5544000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="173" key="#Plugins" timestamp="1588671294699">
+      <screen x="0" y="0" width="1628" height="1050" />
+    </state>
+    <state x="414" y="173" key="#Plugins/0.0.1628.1050@0.0.1628.1050" timestamp="1588671294699" />
+    <state x="512" y="269" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588670883338">
+      <screen x="0" y="0" width="1628" height="1050" />
+    </state>
+    <state x="512" y="269" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1628.1050@0.0.1628.1050" timestamp="1588670883338" />
+    <state x="528" y="269" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587527906519" />
     <state x="578" y="288" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586949629090">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -277,19 +120,20 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="1060" y="357" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586949045181" />
-    <state x="1090" y="459" key="NewPhpFileDialog" timestamp="1587010799177">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="1056" y="459" key="NewPhpFileDialog" timestamp="1588236376937">
+      <screen x="0" y="0" width="1628" height="1050" />
     </state>
+    <state x="1056" y="459" key="NewPhpFileDialog/0.0.1628.1050@0.0.1628.1050" timestamp="1588236376937" />
     <state x="1090" y="459" key="NewPhpFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587010799177" />
     <state x="683" y="164" key="SettingsEditor" timestamp="1586339530964">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="683" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1586339530964" />
-    <state x="470" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1586926340421">
+    <state x="470" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1587527715257">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="473" y="359" key="com.intellij.ide.util.TipDialog/0.0.1638.1050@0.0.1638.1050" timestamp="1586530748544" />
-    <state x="470" y="359" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586926340421" />
+    <state x="470" y="359" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1587527715257" />
     <state x="602" y="154" key="refactoring.ChangeSignatureDialog" timestamp="1587093814790">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

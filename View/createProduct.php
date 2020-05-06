@@ -4,7 +4,7 @@
             <h1>Thêm mới sản phẩm </h1>
         </div>
         <div class="col-12">
-            <form method="POST">
+            <form method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                     <label>Loại sản phẩm</label>
                     <select class="form-group" name="categories">
@@ -27,7 +27,7 @@
                            value="<?php echo date_default_timezone_set('Asia/saigon');
                            echo date('H:i:s d-m-Y', time()) ?>" required>
                 </div>
-                <button type="submit" class="btn btn-primary">Thêm mới</button>
+                <button type="submit" name="submit" class="btn btn-primary">Thêm mới</button>
                 <button class="btn btn-secondary" onclick="window.history.go(-1); return false;">Hủy</button>
             </form>
         </div>
